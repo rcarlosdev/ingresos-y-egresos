@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,14 +20,14 @@
         <section class="parte-intermedia">
             <div>
                 <select name="" id="">
-                    <option value="">Egresos</option>
-                    <option value="">Ingresos</option>
+                    <option value="+">Ingresos</option>
+                    <option value="-">Egresos</option>
                 </select>
                 <input type="text" placeholder="Agregar Descrición">
                 <input type="number" placeholder="Valor">
                 <button><i class="fa-solid fa-check"></i></button>
             </div>
-            <span class="span-msg">Debes ingresar todos los datos</span>
+            <span class="span-msg"></span>
         </section>
         <section class="parte-inferior">
             <div class="ingresos">
@@ -50,6 +50,10 @@
         </section>
     </div>
 
+
+    <script src="./js/Dato.js"></script>
+    <script src="./js/Egreso.js"></script>
+    <script src="./js/Ingreso.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>
